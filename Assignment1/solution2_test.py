@@ -1,9 +1,2 @@
-from solution2 import solution
-
-arr1 = [2,1,3,4,1]
-
-print(solution(arr1))
-
-arr2 = [5,0,2,7]
-
-print(solution(arr2))
+a = [2**(x%5+1) for x in range(9)]
+print(a)
